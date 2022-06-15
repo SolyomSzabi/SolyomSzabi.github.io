@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('assets/background.png');
+}
+
+nav {
+    background-color: #333333;
+    height: 60px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 0;
+    padding: 0 10%;
+}
+
+nav ul li {
+    display:inline-block;
+    line-height: 60px;
+    margin: 0 22px;
+}
+
+nav ul li a {
+    color: #ff0099;
+    font-family: consolas;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+nav img {
+    margin:10px 0;
+    padding: 0 10%;
+    height:40px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Merriweather';
+    
+}
+
+h1.title {
+    font-size: 60px;
+    margin: 115px 0 0;
+    font-weight: 700;
+    padding: 0 10%;
+}
+
+h2 {
+    margin: 40px 0 0;
+    padding: 0 10%;
+    font-family: 'Merriweather';
+    color: #ff0099;
+    font-weight: 400;
+    font-size: 31px;
+}
+
+p {
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 0 10%;
+    font-family: consolas;
+    
+}
+p.separator{
+    margin: 80px auto 60px;
+    width: 50px;
+    font-size: 18px;
+    padding: 0;
+}
+
+h1.centerTitle {
+    
+    font-size: 38px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+h1.definitionTitle {
+    padding: 0 10%;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p.definitionText {
+    padding: 0 10%;
+    font-size: 18px;
+}
+
+
