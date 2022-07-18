@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>BENIBIT</title>
+  <style>
+
+
+    .visible {
+      display:block;
+
+      max-width: 100%;
+      height: auto;
+    }
+
+    #search {
+      margin-left:20%;
+      padding:0;
+      width: 60%;
+      height: 100px;
+      font-size: 72px;
+    }
+    body {
+      margin:0;
+      padding:0;
+    }
+    html{
+      margin:0;
+      padding:0;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="search" value="" id="search" onchange="unhideImg()">
+  <div>
+    <img hidden class='hidden' id="SJ04SIW" src="img/SJ04SIW.jpeg">
+    <img hidden class='hidden' id="SJ04YGK" src="img/SJ04YGK.jpeg">
+    <img hidden class='hidden' id="SJ10FHR" src="img/SJ10FHR.jpeg">
+    <img hidden class='hidden' id="SJ16TDR" src="img/SJ16TDR.jpeg">
+    <img hidden class='hidden' id="SJ19ASM" src="img/SJ19ASM.jpeg">
+    <img hidden class='hidden' id="SJ19BEK" src="img/SJ19BEK.jpeg">
+    <img hidden class='hidden' id="SJ45ATI" src="img/SJ45ATI.jpeg">
+    <img hidden class='hidden' id="SJ61DJP" src="img/SJ61DJP.jpeg">
+    <img hidden class='hidden' id="SJ73ELA" src="img/SJ73ELA.jpeg">
+    <img hidden class='hidden' id="SJ77MIK" src="img/SJ77MIK.jpeg">
+    <img hidden class='hidden' id="SJ92BEL" src="img/SJ92BEL.jpeg">
+    <img hidden class='hidden' id="SJ92BVB" src="img/SJ92BVB.jpeg">
+    <img hidden class='hidden' id="SJ97AGO" src="img/SJ97AGO.jpeg">
+    <img hidden class='hidden' id="SJ98ATT" src="img/SJ98ATT.jpeg">
+  </div>
+
+  <script>
+    function unhideImg() {
+      var x = document.getElementById("search").value;
+      document.getElementById(`${x}`).hidden=false;
+      document.getElementById(`${x}`).classList.add('visible')
+    }
+  </script>
+</body>
+
+</html>
