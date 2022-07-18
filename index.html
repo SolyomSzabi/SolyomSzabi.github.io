@@ -53,7 +53,7 @@
 
   <script>
     function unhideImg() {
-      var x = document.getElementById("search").value;
+      var x = document.getElementById("search").value.toUpperCase();
       document.getElementById(`${x}`).hidden=false;
       document.getElementById(`${x}`).classList.add('visible')
     }
